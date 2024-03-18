@@ -45,5 +45,24 @@
     "color": "dark_gray",
     "flags": [ "NO_ROTATE", "REQUIRES_PREDECESSOR" ],
     "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "hollow_village1",
+      "hollow_village2",
+      "hollow_village3",
+      "hollow_village4",
+      "hollow_village5",
+      "hollow_village6",
+      "hollow_village7",
+      "hollow_village8",
+      "hollow_village9"
+    ],
+    "name": "small village",
+    "sym": "v",
+    "color": "red",
+    "see_cost": 6,
+    "flags": [ "RISK_HIGH" ]
   }
 ]

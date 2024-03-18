@@ -9,7 +9,13 @@
       { "group": "remains_human_generic", "prob": 1, "count-min": 1, "count-max": 2 },
       { "group": "archery_ammo", "prob": 10, "count-min": 1, "count-max": 4 },
       { "group": "science", "prob": 5, "count-min": 1, "count-max": 2 },
-      { "group": "tools_common_small", "prob": 10, "count-min": 1, "count-max": 2 }
+      { "group": "tools_common_small", "prob": 10, "count-min": 1, "count-max": 2 },
+      { "item": "bone_knife", "prob": 5 },
+      { "item": "clay_pot", "prob": 10 },
+      { "item": "bowl_wood", "prob": 15 },
+      { "item": "skewer_bone", "prob": 15 },
+      { "item": "spear_wood", "prob": 5 },
+      { "item": "javelin", "prob": 10, "count-max": 8 }
     ]
   }
 ]
