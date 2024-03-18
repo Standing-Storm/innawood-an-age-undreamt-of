@@ -16,7 +16,8 @@
   {
     "id": "jewelry_innawood",
     "//": "No gem insets--too high-tech",
-    "type": "distribution",
+    "type": "item_group",
+    "subtype": "distribution",
     "entries": [
       { "item": "gold_necklace", "prob": 5 },
       { "item": "copper_necklace", "prob": 50 },

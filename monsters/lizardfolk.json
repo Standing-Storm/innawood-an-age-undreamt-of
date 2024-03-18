@@ -2,9 +2,9 @@
   {
     "id": "mon_lizardfolk_warrior_innawood",
     "type": "MONSTER",
-    "name": "lizardman warrior",
+    "name": "lizardfolk warrior",
     "description": "A tall, powerful, reptilian humanoid with a muscular tail whose skin is covered in dark gray-green scales.  They are coldblooded and primarily live in swamps.  This one is carrying a stone-tipped spear.",
-    "default_faction": "lizardfolk_faction",
+    "default_faction": "lizardfolk",
     "bodytype": "human",
     "species": [ "LIZARDFOLK" ],
     "volume": "80 L",
@@ -66,7 +66,7 @@
   {
     "id": "mon_lizardfolk_hunter_innawood",
     "type": "MONSTER",
-    "name": "lizardman hunter",
+    "name": "lizardfolk hunter",
     "description": "The hunter is smaller than a warrior, but equally as deadly, with their lithe figures and accurate javelin throws.",
     "copy-from": "mon_lizardfolk_warrior_innawood",
     "symbol": "L",
@@ -83,7 +83,7 @@
         "fake_per": 8,
         "require_targeting_player": false,
         "ranges": [ [ 2, 10, "DEFAULT" ] ],
-        "description": "The lizardman hunter hurls a spear!"
+        "description": "The lizardfolk hunter hurls a spear!"
       },
       { "type": "bite", "cooldown": 10 },
       { "id": "scratch", "cooldown": 1 }
@@ -119,9 +119,9 @@
     "type": "MONSTER",
     "name": "lizardfolk warrior",
     "description": "A tall, powerful, reptilian humanoid with a muscular tail whose skin is covered in dark gray-green scales.  They are coldblooded and primarily live in swamps.  This one is carrying a stone-tipped spear.",
-    "default_faction": "lizardman_faction",
+    "default_faction": "lizardfolk",
     "bodytype": "human",
-    "species": [ "LIZARDMAN" ],
+    "species": [ "LIZARDFOLK" ],
     "volume": "80 L",
     "weight": "100 kg",
     "hp": 70,
@@ -177,7 +177,7 @@
     "armor": { "bash": 2, "cut": 12, "stab": 6, "bullet": 10 }
   },
   {
-    "id": "mon_lizardman_hunter_innawood_hostile",
+    "id": "mon_lizardfolk_hunter_innawood_hostile",
     "type": "MONSTER",
     "name": "lizardfolk hunter",
     "description": "The hunter is smaller than a warrior, but equally as deadly, with their lithe figures and accurate javelin throws.",
@@ -196,7 +196,7 @@
         "fake_per": 8,
         "require_targeting_player": false,
         "ranges": [ [ 2, 10, "DEFAULT" ] ],
-        "description": "The lizardman hunter hurls a spear!"
+        "description": "The lizardfolk hunter hurls a spear!"
       },
       { "type": "bite", "cooldown": 10 },
       { "id": "scratch", "cooldown": 1 }

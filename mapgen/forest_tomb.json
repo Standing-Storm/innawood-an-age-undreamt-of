@@ -5,6 +5,7 @@
     "terrain": {
       ".": "t_rock_floor",
       " ": [ [ "t_grass_dead", 15 ], [ "t_dirt", 4 ], [ "t_tree_dead", 2 ], [ "t_dirtmound", 3 ], [ "t_rock_floor_no_roof", 4 ] ],
+      "T": "t_tree_dead",
       "R": "t_railroad_rubble",
       "S": "t_shrub",
       "<": "t_slope_up",

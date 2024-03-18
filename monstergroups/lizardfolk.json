@@ -31,7 +31,7 @@
     "monsters": [
       { "monster": "mon_lizardfolk_hunter_innawood", "weight": 500, "cost_multiplier": 4, "pack_size": [ 2, 5 ] },
       {
-        "monster": "mon_lizardman_hunter_innawood_hostile",
+        "monster": "mon_lizardfolk_hunter_innawood_hostile",
         "weight": 500,
         "cost_multiplier": 4,
         "pack_size": [ 2, 5 ]
@@ -44,7 +44,7 @@
     "monsters": [
       { "monster": "mon_lizardfolk_hunter_innawood", "weight": 500, "cost_multiplier": 4, "pack_size": [ 2, 5 ] },
       {
-        "monster": "mon_lizardman_hunter_innawood_hostile",
+        "monster": "mon_lizardfolk_hunter_innawood_hostile",
         "weight": 500,
         "cost_multiplier": 4,
         "pack_size": [ 2, 5 ]
@@ -69,7 +69,7 @@
       { "monster": "mon_black_rat", "weight": 10 },
       { "monster": "mon_lizardfolk_warrior_innawood_hostile", "weight": 20, "pack_size": [ 2, 4 ] },
       {
-        "monster": "mon_lizardman_hunter_innawood_hostile",
+        "monster": "mon_lizardfolk_hunter_innawood_hostile",
         "weight": 30,
         "cost_multiplier": 4,
         "pack_size": [ 1, 2 ]
