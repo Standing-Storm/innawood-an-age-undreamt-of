@@ -11,7 +11,7 @@
         { "not": "is_day" },
         { "not": { "u_has_effect": "sleep" } },
         "u_is_outside",
-        { "u_at_om_location": "forest_water" }
+        { "or": [ { "u_at_om_location": "forest_water" }, { "u_near_om_location": "river_center", "range": 1 } ] }
       ]
     },
     "effect": [
