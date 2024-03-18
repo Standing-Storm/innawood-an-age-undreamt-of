@@ -2,6 +2,7 @@
   {
     "id": "mon_rattlesnake_lizardfolk",
     "copy-from": "mon_rattlesnake",
+    "looks_like": "mon_rattlesnake",
     "type": "MONSTER",
     "name": { "str": "rattlesnake" },
     "default_faction": "lizardfolk"
@@ -9,6 +10,7 @@
   {
     "id": "mon_rattlesnake_giant_lizardfolk",
     "copy-from": "mon_rattlesnake_giant",
+    "looks_like": "mon_rattlesnake_giant",
     "type": "MONSTER",
     "name": { "str": "rattlesnake" },
     "default_faction": "lizardfolk"
