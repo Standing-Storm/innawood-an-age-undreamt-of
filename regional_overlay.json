@@ -2,6 +2,7 @@
   {
     "type": "region_overlay",
     "regions": [ "all" ],
+    "//": "Designed to make forests and swamps more common and wilderness food more rare",
     "overmap_forest_settings": {
       "noise_threshold_forest": 0.15,
       "noise_threshold_forest_thick": 0.25,
