@@ -1,0 +1,8 @@
+[
+  {
+    "type": "SPECIES",
+    "id": "UNDEAD",
+    "description": "a creature animated by necromancy",
+    "flags": [ "DRACULIN_IMMUNE" ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "type": "overmap_special",
+    "id": "forest_tomb",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "forest_tomb_innawood_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "forest_tomb_innawood_roof_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "forest_tomb_innawood_bottom_north" }
+    ],
+    "locations": [ "forest" ],
+    "city_distance": [ 20, -1 ],
+    "city_sizes": [ 0, 20 ],
+    "occurrences": [ 66, 100 ],
+    "FLAGS": [ "UNIQUE", "WILDERNESS" ]
+  }
+]

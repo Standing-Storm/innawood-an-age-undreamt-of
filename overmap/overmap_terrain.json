@@ -1,0 +1,21 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "forest_tomb_innawood",
+    "name": "forest",
+    "sym": "F",
+    "color": "brown",
+    "looks_like": "cemetery_small",
+    "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "forest_tomb_innawood_roof",
+    "copy-from": "forest_tomb_innawood"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "forest_tomb_innawood_bottom",
+    "copy-from": "forest_tomb_innawood"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "grave_goods",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "spear_stone", "prob": 8, "damage": [ 0, 4 ] },
+      { "item": "helmet_larmor", "prob": 2, "damage": [ 0, 4 ] },
+      { "item": "armor_larmor", "prob": 2, "damage": [ 0, 4 ] },
+      { "item": "leathersandals", "prob": 2, "damage": [ 0, 4 ] },
+      { "item": "legguard_larmor", "prob": 2, "damage": [ 0, 4 ] },
+      { "item": "vambrace_larmor", "prob": 2, "damage": [ 0, 4 ] },
+      { "item": "gold_necklace", "prob": 1, "damage": [ 0, 4 ] },
+      { "item": "copper_necklace", "prob": 10, "damage": [ 0, 4 ] },
+      { "item": "silver_necklace", "prob": 5, "damage": [ 0, 4 ] },
+      { "item": "cowrie_necklace", "prob": 5, "damage": [ 0, 4 ] },
+      { "item": "gold_ring", "prob": 2, "damage": [ 0, 4 ] },
+      { "item": "copper_ring", "prob": 15, "damage": [ 0, 4 ] },
+      { "item": "silver_ring", "prob": 5, "damage": [ 0, 4 ] },
+      { "item": "clay_watercont", "prob": 10, "damage": [ 0, 4 ] },
+      { "item": "clay_pot", "prob": 50, "damage": [ 0, 4 ] },
+      { "item": "scrap_cotton", "prob": 80, "count": [ 1, 50 ], "damage": [ 0, 4 ] }
+    ]
+  }
+]

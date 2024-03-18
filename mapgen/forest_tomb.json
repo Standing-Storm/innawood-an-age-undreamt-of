@@ -1,0 +1,130 @@
+[
+  {
+    "type": "palette",
+    "id": "tomb_innawood",
+    "terrain": {
+      ".": "t_rock_floor",
+      " ": [ [ "t_grass_dead", 15 ], [ "t_dirt", 4 ], [ "t_tree_dead", 2 ], [ "t_dirtmound", 3 ], [ "t_rock_floor_no_roof", 4 ] ],
+      "R": "t_railroad_rubble",
+      "S": "t_shrub",
+      "<": "t_slope_up",
+      ">": "t_slope_down",
+      "#": "t_rock"
+    },
+    "furniture": { "H": "f_altar", "C": "f_slab" },
+    "items": { "C": { "item": "grave_goods", "chance": 25 }, "H": { "item": "forest_tomb_spellbook", "chance": 100 } },
+    "monster": { "x": { "monster": "mon_skeleton_animated", "chance": 50 }, "Z": { "monster": "mon_zombie_necro", "chance": 100 } }
+  },
+  {
+    "type": "palette",
+    "id": "tomb_innawood_roof",
+    "terrain": { ".": "t_rock_roof", " ": "t_open_air", ">": "t_slope_down" }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "forest_tomb_innawood" ],
+    "//": "Ground level - Z-0.",
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+        "                  S     ",
+        "            S           ",
+        "   S                    ",
+        "                    S   ",
+        "        S               ",
+        "   S            S       ",
+        "   ##<###############   ",
+        "   ##################   ",
+        " S ####C.##>>##..C###   ",
+        "   ###x........x.###<S  ",
+        "   ###...##..##..C###   ",
+        "   ###.####..########   ",
+        "   ###..###..x..#####   ",
+        "   ###x.C##..#.x.R### S ",
+        "  S####R###..########   ",
+        "   ########..###<####   ",
+        "          T..T     S    ",
+        "     S                  ",
+        "          T  T       S  ",
+        "      S                 ",
+        "          T  T          ",
+        "                 S      ",
+        "    S                   ",
+        "                S       "
+      ],
+      "palettes": [ "tomb_innawood" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "forest_tomb_innawood_bottom" ],
+    "//": "Underground level - Z -1.",
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+        "########################",
+        "############.x####xC####",
+        "###########......#.#####",
+        "#C.C######..####...x####",
+        "#x.x######..#####C#C####",
+        "#C.C#..R###..###########",
+        "#x.x##.##x....x#..######",
+        "#C.C##.##......#.x##xC##",
+        "##.##C.....<<....C##.###",
+        "#C..###.#......#####xC##",
+        "###x###.#x....x#####.###",
+        "###..######..######..C##",
+        "####...###......###.####",
+        "######.....####..x..####",
+        "######.############.####",
+        "####x..###########..C###",
+        "###.x#############x#####",
+        "##..####Cx....xC##..####",
+        "##.###.........x###.####",
+        "##.....#x..HZ.......####",
+        "####.###x......x########",
+        "###C..##################",
+        "#####.C#################",
+        "########################"
+      ],
+      "palettes": [ "tomb_innawood" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "forest_tomb_innawood_roof" ],
+    "//": "Roof level - Z +1.",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "   ..>...............   ",
+        "   ..................   ",
+        "   ..................   ",
+        "   .................>   ",
+        "   ..................   ",
+        "   ..................   ",
+        "   ..................   ",
+        "   ..................   ",
+        "   ..................   ",
+        "   .............>....   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "tomb_innawood_roof" ]
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "innawood_age_undreamt",
+    "name": "<color_green>Innawood</color>: An <color_cyan>Age Undreamt Of</color>",
+    "authors": [ "StandingStorm" ],
+    "maintainers": [ "StandingStorm" ],
+    "description": "Making a stone age fantasy setting Innawood",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "xedra_evolved_innawoods", "megafauna", "feral_villages_innawood" ]
+  }
+]

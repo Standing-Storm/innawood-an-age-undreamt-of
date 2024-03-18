@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mon_skeleton_animated",
+    "type": "MONSTER",
+    "name": { "str": "animated skeleton" },
+    "description": "An animated skeleton, held together and moving around through some eldritch force.  Red lights burn in its hollow eye sockets.",
+    "default_faction": "zombie",
+    "bodytype": "human",
+    "species": [ "UNDEAD" ],
+    "volume": "62500 ml",
+    "weight": "30500 g",
+    "hp": 50,
+    "speed": 85,
+    "material": [ "bone" ],
+    "symbol": "S",
+    "color": "white",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 3,
+    "dodge": 2,
+    "bleed_rate": 0,
+    "vision_day": 30,
+    "vision_night": 10,
+    "harvest": "mr_bones",
+    "grab_strength": 20,
+    "special_attacks": [
+      { "id": "grab", "cooldown": 21 },
+      {
+        "type": "monster_attack",
+        "attack_type": "melee",
+        "id": "scratch",
+        "cooldown": 1,
+        "move_cost": 150,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 9 } ],
+        "hit_dmg_u": "%1$s claws at your %2$s!",
+        "hit_dmg_npc": "%1$s claws at <npcname>!",
+        "miss_msg_u": "%1$s claws at you, but you dodge!",
+        "miss_msg_npc": "%1$s tries to claw at <npcname>, but they dodge!",
+        "no_dmg_msg_u": "%1$s claws at your %2$s, but fails to penetrate armor.",
+        "no_dmg_msg_npc": "%1$s tries to claw at <npcname>, but fails to penetrate armor.",
+        "dodgeable": true,
+        "blockable": true
+      },
+      { "id": "bite_humanoid", "cooldown": 5 }
+    ],
+    "flags": [ "SEES", "HEARS", "GRABS", "BASHES", "GROUP_BASH", "REVIVES", "NO_BREATHE", "FILTHY" ],
+    "armor": { "cut": 15, "bash": -10, "stab": 500, "acid": 3, "bullet": 500, "electric": 3 }
+  }
+]
