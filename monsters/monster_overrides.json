@@ -1,0 +1,16 @@
+[
+  {
+    "id": "mon_rattlesnake_lizardfolk",
+    "copy-from": "mon_rattlesnake",
+    "type": "MONSTER",
+    "name": { "str": "rattlesnake" },
+    "default_faction": "lizardfolk"
+  },
+  {
+    "id": "mon_rattlesnake_giant_lizardfolk",
+    "copy-from": "mon_rattlesnake_giant",
+    "type": "MONSTER",
+    "name": { "str": "rattlesnake" },
+    "default_faction": "lizardfolk"
+  }
+]

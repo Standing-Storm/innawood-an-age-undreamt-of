@@ -55,18 +55,9 @@
     "type": "monstergroup",
     "name": "GROUP_LIZARDFOLK_LAIR_DEPTHS",
     "monsters": [
-      { "monster": "mon_ghost_light", "weight": 5, "cost_multiplier": 10, "conditions": [ "NIGHT" ] },
-      {
-        "monster": "mon_ghost_light",
-        "weight": 1,
-        "cost_multiplier": 10,
-        "conditions": [ "NIGHT" ],
-        "pack_size": [ 1, 3 ]
-      },
       { "monster": "mon_bat", "weight": 5, "cost_multiplier": 5, "pack_size": [ 6, 10 ] },
-      { "monster": "mon_rattlesnake", "weight": 5 },
-      { "monster": "mon_rattlesnake_giant", "weight": 5, "cost_multiplier": 2 },
-      { "monster": "mon_black_rat", "weight": 10 },
+      { "monster": "mon_rattlesnake_lizardfolk", "weight": 5 },
+      { "monster": "mon_rattlesnake_giant_lizardfolk", "weight": 5, "cost_multiplier": 3 },
       { "monster": "mon_lizardfolk_warrior_innawood_hostile", "weight": 20, "pack_size": [ 2, 4 ] },
       {
         "monster": "mon_lizardfolk_hunter_innawood_hostile",
