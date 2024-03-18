@@ -30,6 +30,7 @@
     "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_body_armor", "wps_humanoid_open_helmet" ],
     "families": [ "prof_wp_demihuman" ],
     "death_drops": { "subtype": "collection", "items": [ { "item": "spear_stone", "prob": 30 }, { "item": "leather_belt", "prob": 20 } ] },
+    "zombify_into": "mon_zombie_lizardfolk",
     "special_attacks": [
       {
         "id": "stretch_attack",
@@ -147,6 +148,7 @@
     "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_body_armor", "wps_humanoid_open_helmet" ],
     "families": [ "prof_wp_demihuman" ],
     "death_drops": [ { "item": "spear_stone", "prob": 30 }, { "item": "leather_belt", "prob": 20 } ],
+    "zombify_into": "mon_zombie_lizardfolk",
     "special_attacks": [
       {
         "id": "stretch_attack",

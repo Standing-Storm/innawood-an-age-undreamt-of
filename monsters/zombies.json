@@ -1,0 +1,11 @@
+[
+  {
+    "id": "mon_zombie_lizardfolk",
+    "copy-from": "mon_zombie_mancroc",
+    "name": { "str": "zombie lizardfolk" },
+    "description": "Scales dull and covered in blood, eyes vacant and filmed over, teeth chipped, this lizardfolk is clearly nothing more than an animated corpse.",
+    "species": [ "ZOMBIE", "LIZARDFOLK" ],
+    "death_drops": "null_death_drops",
+    "armor": { "bash": 2, "cut": 12, "stab": 6, "bullet": 10 }
+  }
+]
