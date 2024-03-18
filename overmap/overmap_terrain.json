@@ -17,5 +17,24 @@
     "type": "overmap_terrain",
     "id": "forest_tomb_innawood_bottom",
     "copy-from": "forest_tomb_innawood"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "lizardfolk_lair_z-0_NW", "lizardfolk_lair_z-0_NE", "lizardfolk_lair_z-0_SW", "lizardfolk_lair_z-0_SE" ],
+    "name": "swamp?",
+    "sym": "F",
+    "color": "c_light_cyan",
+    "looks_like": "forest_water",
+    "see_cost": 5,
+    "flags": [ "SOURCE_FORAGE", "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "lizardfolk_lair_z-1_NW", "lizardfolk_lair_z-1_NE", "lizardfolk_lair_z-1_SW", "lizardfolk_lair_z-1_SE" ],
+    "name": "solid earth",
+    "sym": "#",
+    "color": "brown",
+    "looks_like": "solid_earth",
+    "see_cost": 5
   }
 ]

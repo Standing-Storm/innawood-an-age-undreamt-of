@@ -10,7 +10,26 @@
     "locations": [ "forest" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 20 ],
-    "occurrences": [ 66, 100 ],
+    "occurrences": [ 20, 100 ],
+    "FLAGS": [ "UNIQUE", "WILDERNESS" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "lizardfolk_lair",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "lizardfolk_lair_z-0_NW_north" },
+      { "point": [ 1, 0, 0 ], "overmap": "lizardfolk_lair_z-0_NE_north" },
+      { "point": [ 0, 1, 0 ], "overmap": "lizardfolk_lair_z-0_SW_north" },
+      { "point": [ 1, 1, 0 ], "overmap": "lizardfolk_lair_z-0_SE_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "lizardfolk_lair_z-1_NW_north" },
+      { "point": [ 1, 0, -1 ], "overmap": "lizardfolk_lair_z-1_NE_north" },
+      { "point": [ 0, 1, -1 ], "overmap": "lizardfolk_lair_z-1_SW_north" },
+      { "point": [ 1, 1, -1 ], "overmap": "lizardfolk_lair_z-1_SE_north" }
+    ],
+    "locations": [ "swamp" ],
+    "city_distance": [ 20, -1 ],
+    "city_sizes": [ 0, 20 ],
+    "occurrences": [ 50, 100 ],
     "FLAGS": [ "UNIQUE", "WILDERNESS" ]
   }
 ]

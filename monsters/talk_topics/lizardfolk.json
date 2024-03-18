@@ -1,0 +1,20 @@
+[
+  {
+    "id": [ "TALK_LIZARDFOLK_WARRIOR" ],
+    "type": "talk_topic",
+    "dynamic_line": "*stares at you with an unblinking gaze",
+    "responses": [ { "text": "Well, never mind then.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "id": [ "TALK_LIZARDFOLK_HUNTER" ],
+    "type": "talk_topic",
+    "dynamic_line": "*stares at you with an unblinking gaze",
+    "responses": [ { "text": "Well, never mind then.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "id": [ "TALK_LIZARDFOLK_SHAMAN" ],
+    "type": "talk_topic",
+    "dynamic_line": "*stares at you with an unblinking gaze",
+    "responses": [ { "text": "Well, never mind then.", "topic": "TALK_DONE" } ]
+  }
+]
