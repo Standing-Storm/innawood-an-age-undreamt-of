@@ -18,21 +18,18 @@
       "CSC_PRACTICE_SOCIAL",
       "CSC_PRACTICE_MELEE",
       "CSC_PRACTICE_RANGED",
-      "CSC_PRACTICE_OCCULT"
+      "CSC_PRACTICE_THAUMATURGY"
     ]
   },
   {
     "type": "recipe_category",
-    "id": "CC_OCCULT",
+    "id": "CC_THAUMATURGY",
     "recipe_subcategories": [
       "CSC_ALL",
-      "CSC_OCCULT_MATERIALS",
-      "CSC_OCCULT_TOOLS",
-      "CSC_OCCULT_ENCHANTING",
-      "CSC_OCCULT_HERBALISM",
-      "CSC_OCCULT_INFUSION",
-      "CSC_OCCULT_RITUALS",
-      "CSC_OCCULT_RESEARCH"
+      "CSC_THAUMATURGY_MATERIALS",
+      "CSC_THAUMATURGY_TOOLS",
+      "CSC_THAUMATURGY_RITUALS",
+      "CSC_THAUMATURGY_RESEARCH"
     ]
   }
 ]

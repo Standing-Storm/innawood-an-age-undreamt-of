@@ -1,10 +1,10 @@
 [
   {
-    "id": "practice_spellcraft_basics",
+    "id": "practice_thaumaturgy_basics",
     "type": "practice",
     "activity_level": "NO_EXERCISE",
     "category": "CC_PRACTICE",
-    "subcategory": "CSC_PRACTICE_OCCULT",
+    "subcategory": "CSC_PRACTICE_THAUMATURGY",
     "name": "natural observations",
     "description": "Observe the flight of birds, the movement of the stars, the wind among the trees, and the tremors of the earth.  There's something more out there, if you look for it.",
     "skill_used": "deduction",

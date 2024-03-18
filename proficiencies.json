@@ -1,0 +1,41 @@
+[
+  {
+    "type": "proficiency_category",
+    "id": "prof_occult_research",
+    "name": "Occult Research",
+    "description": "Proficiencies for discovering the hidden truths of the world."
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_alchemy_basic",
+    "category": "prof_occult_research",
+    "name": { "str": "Alchemy Basics" },
+    "description": "You understand the basics of to combine eldritch ingredients to make compounds that have magickal effects.",
+    "can_learn": true,
+    "default_time_multiplier": 2,
+    "default_skill_penalty": 0.3,
+    "time_to_learn": "12 h"
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_alchemy_expert",
+    "category": "prof_occult_research",
+    "name": { "str": "Alchemy Expert" },
+    "description": "You understand how to combine eldritch ingredients to make compounds that have magicak effects.",
+    "can_learn": true,
+    "default_time_multiplier": 2,
+    "default_skill_penalty": 0.3,
+    "time_to_learn": "24 h"
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_enchanting_basic",
+    "category": "prof_occult_research",
+    "name": { "str": "Enchanting Basics" },
+    "description": "You understand how to infuse arcane power into physical objects.",
+    "can_learn": true,
+    "default_time_multiplier": 2,
+    "default_skill_penalty": 0.5,
+    "time_to_learn": "12 h"
+  }
+]
