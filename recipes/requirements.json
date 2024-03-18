@@ -1,0 +1,9 @@
+[
+  {
+    "id": "writing_standard",
+    "type": "requirement",
+    "//": "Tools and components for writing.",
+    "tools": [ [ [ "feather", -1 ] ] ],
+    "components": [ [ [ "homemade_ink", 1 ] ] ]
+  }
+]
