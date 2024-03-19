@@ -56,6 +56,7 @@
           "t_tree_cherry": 4,
           "t_tree_plum": 2,
           "t_tree_sassafras": 1,
+          "t_tree_witchwood": 1,
           "t_region_tree_dead": 20,
           "t_region_tree_forest_other": 50
         },
@@ -157,7 +158,16 @@
           "t_tree_coffee": 2,
           "t_tree_dead": 4
         }
+      },
+      "furniture": {
+        "f_region_weed": { "f_morningflower": 10 },
+        "f_region_forest": { "f_morningflower": 20, "f_harfry": 10 },
+        "f_region_forest_dense": { "f_morningflower": 20, "f_harfry": 20 }
       }
+    },
+    "map_extras": {
+      "forest_thick": { "chance": 30, "extras": { "mx_witchwood_grove": 30 } },
+      "forest": { "chance": 20, "extras": { "mx_witchwood_grove": 5 } },
     }
   }
 ]
