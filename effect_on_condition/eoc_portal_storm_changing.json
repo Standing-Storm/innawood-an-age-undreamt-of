@@ -1,0 +1,130 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_STORM_BIRD_MUTATOR",
+    "recurrence": "15 minutes",
+    "condition": {
+      "and": [
+        {
+          "or": [ { "is_weather": "distant_portal_storm" }, { "is_weather": "portal_storm" }, { "is_weather": "close_portal_storm" } ]
+        },
+        { "u_has_trait": "PORTAL_BIRD_MUTATOR" },
+        { "not": { "u_has_worn_with_flag": "PORTAL_PROOF" } },
+        "u_is_outside"
+      ]
+    },
+    "deactivate_condition": { "not": { "u_has_trait": "PORTAL_BIRD_MUTATOR" } },
+    "effect": [
+      { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
+      { "math": [ "u_vitamin('mutagen_bird')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_STORM_FELINE_MUTATOR",
+    "recurrence": "15 minutes",
+    "condition": {
+      "and": [
+        {
+          "or": [ { "is_weather": "distant_portal_storm" }, { "is_weather": "portal_storm" }, { "is_weather": "close_portal_storm" } ]
+        },
+        { "u_has_trait": "PORTAL_FELINE_MUTATOR" },
+        { "not": { "u_has_worn_with_flag": "PORTAL_PROOF" } },
+        "u_is_outside"
+      ]
+    },
+    "deactivate_condition": { "not": { "u_has_trait": "PORTAL_FELINE_MUTATOR" } },
+    "effect": [
+      { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
+      { "math": [ "u_vitamin('mutagen_feline')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_STORM_INSECT_MUTATOR",
+    "recurrence": "15 minutes",
+    "condition": {
+      "and": [
+        {
+          "or": [ { "is_weather": "distant_portal_storm" }, { "is_weather": "portal_storm" }, { "is_weather": "close_portal_storm" } ]
+        },
+        { "u_has_trait": "PORTAL_INSECT_MUTATOR" },
+        { "not": { "u_has_worn_with_flag": "PORTAL_PROOF" } },
+        "u_is_outside"
+      ]
+    },
+    "deactivate_condition": { "not": { "u_has_trait": "PORTAL_INSECT_MUTATOR" } },
+    "effect": [
+      { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
+      { "math": [ "u_vitamin('mutagen_insect')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_STORM_LUPINE_MUTATOR",
+    "recurrence": "15 minutes",
+    "condition": {
+      "and": [
+        {
+          "or": [ { "is_weather": "distant_portal_storm" }, { "is_weather": "portal_storm" }, { "is_weather": "close_portal_storm" } ]
+        },
+        { "u_has_trait": "PORTAL_LUPINE_MUTATOR" },
+        { "not": { "u_has_worn_with_flag": "PORTAL_PROOF" } },
+        "u_is_outside"
+      ]
+    },
+    "deactivate_condition": { "not": { "u_has_trait": "PORTAL_LUPINE_MUTATOR" } },
+    "effect": [
+      { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
+      { "math": [ "u_vitamin('mutagen_lupine')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_STORM_PLANT_MUTATOR",
+    "recurrence": "15 minutes",
+    "global": true,
+    "condition": {
+      "and": [
+        {
+          "or": [ { "is_weather": "distant_portal_storm" }, { "is_weather": "portal_storm" }, { "is_weather": "close_portal_storm" } ]
+        },
+        { "u_has_trait": "PORTAL_PLANT_MUTATOR" },
+        { "not": { "u_has_worn_with_flag": "PORTAL_PROOF" } },
+        "u_is_outside"
+      ]
+    },
+    "deactivate_condition": { "not": { "u_has_trait": "PORTAL_PLANT_MUTATOR" } },
+    "effect": [
+      { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
+      { "math": [ "u_vitamin('mutagen_plant')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_STORM_SPIDER_MUTATOR",
+    "recurrence": "15 minutes",
+    "global": true,
+    "condition": {
+      "and": [
+        {
+          "or": [ { "is_weather": "distant_portal_storm" }, { "is_weather": "portal_storm" }, { "is_weather": "close_portal_storm" } ]
+        },
+        { "u_has_trait": "PORTAL_SPIDER_MUTATOR" },
+        { "not": { "u_has_worn_with_flag": "PORTAL_PROOF" } },
+        "u_is_outside"
+      ]
+    },
+    "deactivate_condition": { "not": { "u_has_trait": "PORTAL_SPIDER_MUTATOR" } },
+    "effect": [
+      { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
+      { "math": [ "u_vitamin('mutagen_spider')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  }
+]

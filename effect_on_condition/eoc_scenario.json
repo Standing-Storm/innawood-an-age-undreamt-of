@@ -1,0 +1,96 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SCENARIO_STORMWROUGHT_EXILE",
+    "eoc_type": "EVENT",
+    "required_event": "game_start",
+    "effect": [ { "queue_eocs": "EOC_SCENARIO_STORMWROUGHT_EXILE_DELAY", "time_in_future": 1 } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_DELAY",
+    "effect": [
+      {
+        "run_eoc_selector": [
+          "EOC_SCENARIO_STORMWROUGHT_EXILE_BIRD",
+          "EOC_SCENARIO_STORMWROUGHT_EXILE_FELINE",
+          "EOC_SCENARIO_STORMWROUGHT_EXILE_INSECT",
+          "EOC_SCENARIO_STORMWROUGHT_EXILE_LUPINE",
+          "EOC_SCENARIO_STORMWROUGHT_EXILE_PLANT",
+          "EOC_SCENARIO_STORMWROUGHT_EXILE_SPIDER"
+        ],
+        "names": [
+          "Stormwrought Bird",
+          "Stormwrought Feline",
+          "Stormwrought Insect",
+          "Stormwrought Lupine",
+          "Stormwrought Plant",
+          "Stormwrought Spider"
+        ],
+        "keys": [ "1", "2", "3", "4", "5", "6" ],
+        "descriptions": [
+          "The storms changed you partly into a bird.",
+          "The storms changed you partly into a cat.",
+          "The storms changed you partly into an insect.",
+          "The storms changed you partly into a wolf.",
+          "The storms changed you partly into a plant.",
+          "The storms changed you partly into a spider."
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_BIRD",
+    "effect": [
+      { "u_add_trait": "WINGS_STUB" },
+      { "math": [ "u_vitamin('mutagen_bird')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_FELINE",
+    "effect": [
+      { "u_add_trait": "FELINE_EARS" },
+      { "math": [ "u_vitamin('mutagen_feline')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_INSECT",
+    "effect": [
+      { "u_add_trait": "HEADBUMPS" },
+      { "math": [ "u_vitamin('mutagen_insect')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_LUPINE",
+    "effect": [
+      { "u_add_trait": "PADDED_FEET" },
+      { "math": [ "u_vitamin('mutagen_lupine')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_PLANT",
+    "effect": [
+      { "u_add_trait": "JAUNDICE" },
+      { "math": [ "u_vitamin('mutagen_lupine')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_SPIDER",
+    "effect": [
+      { "u_add_trait": "SKIN_SMOOTH" },
+      { "math": [ "u_vitamin('mutagen_lupine')", "+=", "450" ] },
+      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+    ]
+  }
+]

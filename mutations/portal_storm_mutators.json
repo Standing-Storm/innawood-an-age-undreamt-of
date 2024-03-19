@@ -1,0 +1,126 @@
+[
+  {
+    "type": "mutation",
+    "id": "STORMWROUGHT",
+    "name": { "str": "Stormwrought" },
+    "description": "An invisible trait to handle the fact that scenario EoCs can't do selectors.",
+    "points": 0,
+    "player_display": false,
+    "purifiable": false,
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "PORTAL_BIRD_MUTATOR",
+    "name": { "str": "Stormwrought" },
+    "points": 0,
+    "mixed_effect": true,
+    "description": "Exposure to portal storms and related phenomena has changed your form, and may change it again.",
+    "purifiable": false,
+    "valid": false,
+    "cancels": [
+      "CHAOTIC",
+      "UNSTABLE",
+      "PORTAL_FELINE_MUTATOR",
+      "PORTAL_INSECT_MUTATOR",
+      "PORTAL_LUPINE_MUTATOR",
+      "PORTAL_PLANT_MUTATOR",
+      "PORTAL_SPIDER_MUTATOR"
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "PORTAL_FELINE_MUTATOR",
+    "name": { "str": "Stormwrought" },
+    "points": 0,
+    "mixed_effect": true,
+    "description": "Exposure to portal storms and related phenomena has changed your form, and may change it again.",
+    "purifiable": false,
+    "valid": false,
+    "cancels": [
+      "CHAOTIC",
+      "UNSTABLE",
+      "PORTAL_BIRD_MUTATOR",
+      "PORTAL_INSECT_MUTATOR",
+      "PORTAL_LUPINE_MUTATOR",
+      "PORTAL_PLANT_MUTATOR",
+      "PORTAL_SPIDER_MUTATOR"
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "PORTAL_INSECT_MUTATOR",
+    "name": { "str": "Stormwrought" },
+    "points": 0,
+    "mixed_effect": true,
+    "description": "Exposure to portal storms and related phenomena has changed your form, and may change it again.",
+    "purifiable": false,
+    "valid": false,
+    "cancels": [
+      "CHAOTIC",
+      "UNSTABLE",
+      "PORTAL_BIRD_MUTATOR",
+      "PORTAL_FELINE_MUTATOR",
+      "PORTAL_LUPINE_MUTATOR",
+      "PORTAL_PLANT_MUTATOR",
+      "PORTAL_SPIDER_MUTATOR"
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "PORTAL_LUPINE_MUTATOR",
+    "name": { "str": "Stormwrought" },
+    "points": 0,
+    "mixed_effect": true,
+    "description": "Exposure to portal storms and related phenomena has changed your form, and may change it again.",
+    "purifiable": false,
+    "valid": false,
+    "cancels": [
+      "CHAOTIC",
+      "UNSTABLE",
+      "PORTAL_BIRD_MUTATOR",
+      "PORTAL_FELINE_MUTATOR",
+      "PORTAL_INSECT_MUTATOR",
+      "PORTAL_PLANT_MUTATOR",
+      "PORTAL_SPIDER_MUTATOR"
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "PORTAL_PLANT_MUTATOR",
+    "name": { "str": "Stormwrought" },
+    "points": 0,
+    "mixed_effect": true,
+    "description": "Exposure to portal storms and related phenomena has changed your form, and may change it again.",
+    "purifiable": false,
+    "valid": false,
+    "cancels": [
+      "CHAOTIC",
+      "UNSTABLE",
+      "PORTAL_BIRD_MUTATOR",
+      "PORTAL_FELINE_MUTATOR",
+      "PORTAL_INSECT_MUTATOR",
+      "PORTAL_LUPINE_MUTATOR",
+      "PORTAL_SPIDER_MUTATOR"
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "PORTAL_SPIDER_MUTATOR",
+    "name": { "str": "Stormwrought" },
+    "points": 0,
+    "mixed_effect": true,
+    "description": "Exposure to portal storms and related phenomena has changed your form, and may change it again.",
+    "purifiable": false,
+    "valid": false,
+    "cancels": [
+      "CHAOTIC",
+      "UNSTABLE",
+      "PORTAL_BIRD_MUTATOR",
+      "PORTAL_FELINE_MUTATOR",
+      "PORTAL_INSECT_MUTATOR",
+      "PORTAL_LUPINE_MUTATOR",
+      "PORTAL_PLANT_MUTATOR"
+    ]
+  }
+]
