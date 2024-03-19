@@ -17,7 +17,7 @@
     "effect": [
       { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
       { "math": [ "u_vitamin('mutagen_bird')", "+=", "450" ] },
-      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+      { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
   },
   {
@@ -38,7 +38,7 @@
     "effect": [
       { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
       { "math": [ "u_vitamin('mutagen_feline')", "+=", "450" ] },
-      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+      { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
   },
   {
@@ -59,7 +59,7 @@
     "effect": [
       { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
       { "math": [ "u_vitamin('mutagen_insect')", "+=", "450" ] },
-      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+      { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
   },
   {
@@ -80,7 +80,7 @@
     "effect": [
       { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
       { "math": [ "u_vitamin('mutagen_lupine')", "+=", "450" ] },
-      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+      { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
   },
   {
@@ -102,7 +102,7 @@
     "effect": [
       { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
       { "math": [ "u_vitamin('mutagen_plant')", "+=", "450" ] },
-      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+      { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
   },
   {
@@ -124,7 +124,7 @@
     "effect": [
       { "u_message": "Your whole body pulses in time with the raging storm.", "type": "info" },
       { "math": [ "u_vitamin('mutagen_spider')", "+=", "450" ] },
-      { "math": [ "u_vitamin('mutagen')", "+=", "450" ] }
+      { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
   }
 ]
