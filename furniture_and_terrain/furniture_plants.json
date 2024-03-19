@@ -33,6 +33,21 @@
     ],
     "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
   },
+   {
+    "type": "furniture",
+    "id": "f_maidenshair",
+    "name": "maiden's hair",
+    "description": "A set of long, thin blades waving gently underwater.  They seem to move even when there is no current.",
+    "symbol": "/",
+    "color": "light_green",
+    "looks_like": "f_cattails",
+    "move_cost_mod": 1,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE", "FLOWER" ],
+    "examine_action": "harvest_furn",
+    "harvest_by_season": [ { "seasons": [ "spring", "summer", "autumn", "winter" ], "id": "harvest_maidenshair" } ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
   {
     "type": "furniture",
     "id": "f_starsbreath",
