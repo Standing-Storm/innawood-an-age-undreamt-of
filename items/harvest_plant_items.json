@@ -52,6 +52,23 @@
     "flags": [ "RAW" ]
   },
   {
+    "type": "COMESTIBLE",
+    "id": "maidens_hair",
+    "symbol": "/",
+    "color": "light_green",
+    "spoils_in": "8 days",
+    "comestible_type": "FOOD",
+    "name": { "str": "maiden's hair", "str_pl": "handfuls of maiden's hair" },
+    "description": "A set of long, stringy leaves from the aquatic maiden's hair plant.  They seem to move slightly when you're not looking at them.",
+    "price": 0,
+    "price_postapoc": 5,
+    "material": [ "veggy" ],
+    "weight": "50 g",
+    "volume": "150 ml",
+    "melee_damage": { "bash": 1 },
+    "flags": [ "INEDIBLE" ]
+  },
+  {
     "type": "GENERIC",
     "id": "witchwood_bark",
     "copy-from": "alder_bark",
