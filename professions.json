@@ -28,6 +28,7 @@
     "points": 5,
     "traits": [ "IERDE" ],
     "recipes": [ "mutagen_earthkin", "cthonic_poultice" ],
+    "hobbies": [ "PARACLESIAN_BIRTH" ],
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -38,6 +39,7 @@
     "points": 5,
     "traits": [ "ARVORE" ],
     "recipes": [ "mutagen_plantkin", "verdant_poultice" ],
+    "hobbies": [ "PARACLESIAN_BIRTH" ],
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -48,6 +50,7 @@
     "points": 5,
     "traits": [ "UNDINE" ],
     "recipes": [ "mutagen_waterkin", "cerulean_poultice" ],
+    "hobbies": [ "PARACLESIAN_BIRTH" ],
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -58,6 +61,7 @@
     "points": 5,
     "traits": [ "SALAMANDER" ],
     "recipes": [ "mutagen_flamekin", "charred_sacrifice" ],
+    "hobbies": [ "PARACLESIAN_BIRTH" ],
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -68,6 +72,7 @@
     "points": 5,
     "traits": [ "HOMULLUS", "HOMULLUS_MINIMIZED_MUTATIONS" ],
     "recipes": [ "mutagen_dollkin", "doll_repair_paste" ],
+    "hobbies": [ "PARACLESIAN_BIRTH" ],
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -78,6 +83,7 @@
     "points": 5,
     "traits": [ "SYLPH" ],
     "recipes": [ "mutagen_airkin", "ethereal_draught" ],
+    "hobbies": [ "PARACLESIAN_BIRTH" ],
     "flags": [ "SCEN_ONLY" ]
   }
 ]
