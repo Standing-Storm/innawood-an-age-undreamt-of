@@ -68,7 +68,7 @@
       [ [ "hard_liquor_chem", 20, "LIST" ] ],
       [ [ "salt_water", 4 ] ],
       [ [ "witchwood_bark", 6 ] ],
-      [ [ "corpsefire_cap", 3 ], [ "morningflower_leaves", 2 ] ],
+      [ [ "maidens_hair", 3 ], [ "morningflower_leaves", 2 ] ],
       [ [ "bleach", 5 ] ],
       [ [ "wyld_candy", 2 ] ]
     ]
@@ -311,8 +311,8 @@
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
     "components": [
-      [ [ "corpsefire_cap", 1 ] ],
-      [ [ "harfry_root", 1 ] ],
+      [ [ "maidens_hair", 3 ] ],
+      [ [ "starsbreath_harvested", 3 ] ],
       [ [ "feline_sample", 1 ], [ "lupine_sample", 1 ], [ "batrachian_sample", 1 ] ],
       [ [ "water", 2 ] ]
     ]
@@ -331,7 +331,7 @@
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
     "components": [
-      [ [ "corpsefire_cap", 1 ] ],
+      [ [ "corpsefire_cap", 3 ] ],
       [ [ "harfry_root", 1 ] ],
       [ [ "cattle_sample", 1 ], [ "ursine_sample", 1 ], [ "beast_sample", 1 ] ],
       [ [ "water", 2 ] ]
@@ -352,7 +352,7 @@
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
     "components": [
       [ [ "corpsefire_cap", 1 ] ],
-      [ [ "harfry_root", 1 ] ],
+      [ [ "maidens_hair", 3 ] ],
       [ [ "batrachian_sample", 1 ], [ "rabbit_sample", 1 ] ],
       [ [ "water", 2 ] ]
     ]
