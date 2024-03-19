@@ -157,7 +157,8 @@
           "t_tree_hazelnut": 2,
           "t_tree_coffee": 2,
           "t_tree_dead": 4
-        }
+        },
+        "f_region_water_plant": { "f_maidenshair": 1 }
       },
       "furniture": {
         "f_region_weed": { "f_morningflower": 10 },
