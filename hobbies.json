@@ -1,0 +1,224 @@
+[
+   {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "wrestling_innawood_beginner",
+    "name": "Wrestling (Beginner)",
+    "description": "Maybe you participated in tribal competitions, or maybe you just liked to rough-house with your friends or family growing up.  You're not entirely unused to grappling, but you're hardly an expert.",
+    "points": 2,
+    "skills": [ { "level": 1, "name": "melee" }, { "level": 2, "name": "unarmed" }, { "level": 2, "name": "dodge" } ],
+    "proficiencies": [ "prof_unarmed_familiar" ]
+  },
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "wrestling_innawood",
+    "name": "Wrestling (Intermediate)",
+    "description": "While not the type of wrestler to use a weapon, you have experience wrasslin' and tusslin' with others in the middle of a ring of onlookers.  There's no referees around to see, but hopefully your skills will help you avoid getting pinned by the undead.",
+    "points": 5,
+    "skills": [ { "level": 3, "name": "melee" }, { "level": 4, "name": "unarmed" }, { "level": 4, "name": "dodge" } ],
+    "proficiencies": [ "prof_athlete_basic", "prof_unarmed_familiar", "prof_unarmed_pro" ],
+    "traits": [ "FAST_REFLEXES" ]
+  },
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "wrestling_innawood_expert",
+    "name": "Wrestling (Expert)",
+    "description": "You were likely a local champion and maybe had renown among neighboring clans for your wrestling prowess.  Considering how grabby those zombies are, you should get plenty of use out of your skills.",
+    "points": 8,
+    "skills": [ { "level": 5, "name": "melee" }, { "level": 6, "name": "unarmed" }, { "level": 6, "name": "dodge" } ],
+    "proficiencies": [ "prof_athlete_basic", "prof_athlete_expert", "prof_unarmed_familiar", "prof_unarmed_pro", "prof_unarmed_master" ],
+    "traits": [ "FAST_REFLEXES", "GOODCARDIO" ]
+  },
+ {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "cooking_innawood_beginner",
+    "name": "Cooking (Beginner)",
+    "description": "You can cook well enough that you didn't have to rely on others to make your food, but you've only really learned the bare minimum.",
+    "points": 1,
+    "proficiencies": [ "prof_food_prep" ],
+    "skills": [ { "level": 2, "name": "cooking" } ]
+  },
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "cooking_innawood",
+    "name": "Cooking (Intermediate)",
+    "description": "You enjoyed cooking for yourself and others.  You can't rely on the gatherers or the fishers to bring back any ingredients, though, so you might need to start getting creative with your recipes.",
+    "points": 2,
+    "proficiencies": [
+      "prof_baking",
+      "prof_baking_bread",
+      "prof_baking_desserts_1",
+      "prof_food_prep",
+      "prof_knife_skills",
+      "prof_knives_familiar"
+    ],
+    "skills": [ { "level": 4, "name": "cooking" } ]
+  },
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "cooking_innawood_expert",
+    "name": "Cooking (Expert)",
+    "description": "You're an excellent cook capable of making delicious meals out of almost anything and have a wide array of culinary knowledge.  Sadly, the undead would rather eat you than your meals.",
+    "points": 6,
+    "proficiencies": [
+      "prof_baking",
+      "prof_baking_bread",
+      "prof_baking_desserts_1",
+      "prof_food_prep",
+      "prof_knife_skills",
+      "prof_frying_dessert",
+      "prof_frying",
+      "prof_preservation",
+      "prof_scav_cooking",
+      "prof_knives_familiar"
+    ],
+    "skills": [ { "level": 7, "name": "cooking" } ]
+  },
+{
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "sewing_innawood",
+    "name": "Sewing (Intermediate)",
+    "description": "You are quite good at sewing torn clothes back together, and have even made your own clothes a few times.",
+    "points": 3,
+    "proficiencies": [ "prof_closures", "prof_knitting" ],
+    "skills": [ { "level": 3, "name": "tailor" }, { "level": 1, "name": "fabrication" } ]
+  },
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "sewing_innawood_expert",
+    "name": "Sewing (Expert)",
+    "description": "You've spent much of your life hand-making clothing of all sorts, for yourself or your family or other members of your tribe.  Too bad you can't stitch the holes in reality closed.",
+    "points": 8,
+    "proficiencies": [
+      "prof_closures",
+      "prof_knitting",
+      "prof_knitting_speed",
+      "prof_quilting",
+      "prof_closures_waterproofing",
+      "prof_leatherworking_basic",
+      "prof_furriery",
+      "prof_spinning",
+      "prof_weaving"
+    ],
+    "skills": [ { "level": 7, "name": "tailor" }, { "level": 2, "name": "fabrication" } ]
+  },
+ {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "melee_training_innawood",
+    "name": "Melee Training (Intermediate)",
+    "description": "You have extensive practice fighting with weapons of all kinds.",
+    "points": 7,
+    "skills": [
+      { "level": 3, "name": "melee" },
+      { "level": 3, "name": "bashing" },
+      { "level": 3, "name": "stabbing" },
+      { "level": 3, "name": "cutting" }
+    ],
+    "proficiencies": [
+      "prof_quarterstaves_familiar",
+      "prof_maces_familiar",
+      "prof_knives_familiar",
+      "prof_long_swords_familiar",
+      "prof_hooking_familiar",
+      "prof_fencing_weapons_familiar",
+      "prof_spears_familiar"
+    ]
+  },
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "melee_training_innawood_expert",
+    "name": "Melee Training (Expert)",
+    "description": "You were an accomplished warrior before the end of the world, often spending time sparring with young warriors and trying to make sure they wouldn't get killed fighting other tribes or the things in the night.",
+    "points": 14,
+    "skills": [
+      { "level": 6, "name": "melee" },
+      { "level": 5, "name": "bashing" },
+      { "level": 5, "name": "stabbing" },
+      { "level": 5, "name": "cutting" }
+    ],
+    "proficiencies": [
+      "prof_quarterstaves_familiar",
+      "prof_quarterstaves_pro",
+      "prof_maces_familiar",
+      "prof_maces_pro",
+      "prof_knives_familiar",
+      "prof_knives_pro",
+      "prof_long_swords_familiar",
+      "prof_long_swords_pro",
+      "prof_hooking_familiar",
+      "prof_hooking_pro",
+      "prof_fencing_weapons_familiar",
+      "prof_fencing_weapons_pro",
+      "prof_spears_familiar",
+      "prof_spears_pro"
+    ]
+  },
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "gourmand_innawood",
+    "name": "Fine Dining",
+    "description": "You loved eating all kinds of food and experimenting with bizarre recipes.  Nowadays, the other cooks are all dead, so it'll be up to you to recreate the joys of your past.",
+    "points": 2,
+    "traits": [ "GOURMAND", "TABLEMANNERS" ],
+    "skills": [ { "level": 2, "name": "cooking" } ]
+  },
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "marathon_runner_innawood",
+    "name": "Tribal Messenger",
+    "description": "You ran messages between communities before the end of the world.  That conditioning should make you better equipped than most in avoiding the dead.",
+    "points": 5,
+    "traits": [ "GOODCARDIO", "FLEET" ],
+    "skills": [ { "level": 2, "name": "swimming" } ],
+    "proficiencies": [ "prof_athlete_basic" ]
+  },
+{
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "back_yard_grilling_innawood",
+    "name": "Cookout Grilling",
+    "description": "You enjoyed cooking at tribal gatherings and have a lot of experience making food.",
+    "points": 1,
+    "skills": [ { "level": 2, "name": "cooking" } ],
+    "proficiencies": [ "prof_food_prep", "prof_knife_skills", "prof_knives_familiar" ]
+  },
+ {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "frying_innawood",
+    "name": "Deep Frying",
+    "points": 2,
+    "description": "You'd have been a hit at a tribal gathering, but you're cooking for one now.",
+    "proficiencies": [
+      "prof_frying",
+      "prof_frying_bread",
+      "prof_baking_desserts_1",
+      "prof_frying_dessert",
+      "prof_food_prep",
+      "prof_knife_skills",
+      "prof_knives_familiar"
+    ],
+    "skills": [ { "level": 3, "name": "cooking" } ]
+  },
+ {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "backpacking_innawood",
+    "name": "Traveling",
+    "description": "You enjoyed trekking on long trails in nature with all your necessities strapped to your back and never really liked staying in one place for too long.",
+    "points": 3,
+    "skills": [ { "level": 2, "name": "survival" }, { "level": 2, "name": "firstaid" } ],
+    "traits": [ "OUTDOORSMAN", "GOODCARDIO", "NOMAD" ]
+  }
+]
