@@ -1,0 +1,8 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_XE_ALLOW_MAGIC_SEQUENCE",
+    "//": "Overriden to allow magical research to learn some spells, plus Inventor doesn't really fit a pre-iron sword and sorcery setting",
+    "effect": [  ]
+  }
+]

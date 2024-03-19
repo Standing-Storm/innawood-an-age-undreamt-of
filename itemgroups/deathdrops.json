@@ -1,12 +1,6 @@
 [
   {
     "type": "item_group",
-    "id": "null_death_drops",
-    "//": "For overriding death drops",
-    "entries": [  ]
-  },
-  {
-    "type": "item_group",
     "subtype": "collection",
     "id": "hollow_warrior_death_drops",
     "entries": [
