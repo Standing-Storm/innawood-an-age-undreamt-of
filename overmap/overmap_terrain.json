@@ -64,5 +64,24 @@
     "color": "red",
     "see_cost": 6,
     "flags": [ "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "hollow_village_zomb_1",
+      "hollow_village_zomb_2",
+      "hollow_village_zomb_3",
+      "hollow_village_zomb_4",
+      "hollow_village_zomb_5",
+      "hollow_village_zomb_6",
+      "hollow_village_zomb_7",
+      "hollow_village_zomb_8",
+      "hollow_village_zomb_9"
+    ],
+    "name": "small village",
+    "sym": "v",
+    "color": "red",
+    "see_cost": 6,
+    "flags": [ "RISK_HIGH" ]
   }
 ]
