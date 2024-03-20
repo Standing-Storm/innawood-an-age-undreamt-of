@@ -63,6 +63,6 @@
     "sound_category": "rainy",
     "required_weathers": [ "light_drizzle", "drizzle" ],
     "priority": 50,
-    "condition": { "or": [ { "math": [ "weather('humidity')", ">=", "93" ] }, { "math": [ "weather('pressure')", "<", "993" ] } ] }
+    "condition": { "or": [ { "math": [ "weather('humidity')", ">=", "90" ] }, { "math": [ "weather('pressure')", "<", "993" ] } ] }
   }
 ]
