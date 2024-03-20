@@ -7,7 +7,7 @@
     "looks_like": "fd_fog"
   },
   {
-    "id": "fd_biolum",
+    "id": "fd_bright_light",
     "type": "field_type",
     "intensity_levels": [
       { "name": "glimmer", "sym": "6", "color": "cyan", "light_emitted": 4 },
