@@ -45,6 +45,7 @@
     "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_BIRD",
     "effect": [
       { "u_add_trait": "WINGS_STUB" },
+      { "u_add_trait": "PORTAL_BIRD_MUTATOR" },
       { "math": [ "u_vitamin('mutagen_bird')", "+=", "450" ] },
       { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
@@ -54,6 +55,7 @@
     "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_FELINE",
     "effect": [
       { "u_add_trait": "FELINE_EARS" },
+      { "u_add_trait": "PORTAL_FELINE_MUTATOR" },
       { "math": [ "u_vitamin('mutagen_feline')", "+=", "450" ] },
       { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
@@ -63,6 +65,7 @@
     "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_INSECT",
     "effect": [
       { "u_add_trait": "HEADBUMPS" },
+      { "u_add_trait": "PORTAL_INSECT_MUTATOR" },
       { "math": [ "u_vitamin('mutagen_insect')", "+=", "450" ] },
       { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
@@ -72,6 +75,7 @@
     "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_LUPINE",
     "effect": [
       { "u_add_trait": "PADDED_FEET" },
+      { "u_add_trait": "PORTAL_LUPINE_MUTATOR" },
       { "math": [ "u_vitamin('mutagen_lupine')", "+=", "450" ] },
       { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
@@ -81,6 +85,7 @@
     "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_PLANT",
     "effect": [
       { "u_add_trait": "JAUNDICE" },
+      { "u_add_trait": "PORTAL_PLANT_MUTATOR" },
       { "math": [ "u_vitamin('mutagen_plant')", "+=", "450" ] },
       { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
@@ -90,6 +95,7 @@
     "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_SPIDER",
     "effect": [
       { "u_add_trait": "SKIN_SMOOTH" },
+      { "u_add_trait": "PORTAL_SPIDER_MUTATOR" },
       { "math": [ "u_vitamin('mutagen_spider')", "+=", "450" ] },
       { "math": [ "u_vitamin('mutagen')", "+=", "550" ] }
     ]
