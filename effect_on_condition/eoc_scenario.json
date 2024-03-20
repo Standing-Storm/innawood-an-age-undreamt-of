@@ -9,6 +9,7 @@
   {
     "type": "effect_on_condition",
     "id": "EOC_SCENARIO_STORMWROUGHT_EXILE_DELAY",
+    "condition": { "u_has_trait": "STORMWROUGHT" },
     "effect": [
       {
         "run_eoc_selector": [
