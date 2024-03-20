@@ -29,5 +29,18 @@
     "volume": "10 ml",
     "weight": "250 g",
     "flags": [ "LIGHT_5" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "glimmerstone_dust",
+    "category": "spare_parts",
+    "name": { "str": "glimmerstone dust", "str_pl": "pinches of glimmerstone dust" },
+    "description": "Crushed and distilled glimmerstone, leaving only the most vibrant glowing parts.  It's still not bright enough to be useful, however.",
+    "symbol": ".",
+    "color": "light_blue",
+    "material": [ "powder" ],
+    "volume": "1 ml",
+    "weight": "25 g",
+    "flags": [ "LIGHT_5" ]
   }
 ]
