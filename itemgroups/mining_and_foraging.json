@@ -81,5 +81,12 @@
         { "item": "elf_shot", "count": [ 1, 2 ], "prob": 3 }
       ]
     }
+  },
+   {
+    "type": "item_group",
+    "id": "cave_minerals",
+    "subtype": "distribution",
+    "copy-from": "cave_minerals",
+    "extend": { "entries": [ { "item": "glimmerstone", "prob": 2, "count": [ 1, 2 ] } ] }
   }
 ]
