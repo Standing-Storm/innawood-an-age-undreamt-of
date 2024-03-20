@@ -157,10 +157,10 @@
           "t_tree_hazelnut": 2,
           "t_tree_coffee": 2,
           "t_tree_dead": 4
-        },
-        "f_region_water_plant": { "f_maidenshair": 1 }
+        }
       },
       "furniture": {
+        "f_region_water_plant": { "f_maidenshair": 1 },
         "f_region_weed": { "f_morningflower": 10 },
         "f_region_forest": { "f_morningflower": 20, "f_harfry": 10 },
         "f_region_forest_dense": { "f_morningflower": 20, "f_harfry": 20 }
@@ -168,7 +168,7 @@
     },
     "map_extras": {
       "forest_thick": { "chance": 30, "extras": { "mx_witchwood_grove": 30 } },
-      "forest": { "chance": 20, "extras": { "mx_witchwood_grove": 5 } },
+      "forest": { "chance": 20, "extras": { "mx_witchwood_grove": 5 } }
     }
   }
 ]

@@ -39,6 +39,7 @@
     "coverage": 80,
     "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
     "examine_action": "harvested_plant",
+    "transforms_into": "t_tree_witchwood",
     "harvest_by_season": [ { "seasons": [ "spring", "summer", "autumn", "winter" ], "id": "harvest_witchwood" } ],
     "bash": {
       "str_min": 80,

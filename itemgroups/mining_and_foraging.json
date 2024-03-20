@@ -21,7 +21,7 @@
       "entries": [
         { "item": "morningflower_leaves", "prob": 10, "count-min": 1, "count-max": 2 },
         { "item": "harfry_root", "prob": 8, "count-min": 1, "count-max": 3 },
-        { "item": "moonstears_harvested", "prob": 5, "count-min": 1, "count-max": 3 },
+        { "item": "starsbreath_harvested", "prob": 5, "count-min": 1, "count-max": 3 },
         { "item": "elf_shot", "prob": 5 }
       ]
     }
@@ -35,7 +35,7 @@
       "entries": [
         { "item": "morningflower_leaves", "prob": 10, "count-min": 1, "count-max": 2 },
         { "item": "harfry_root", "prob": 5, "count-min": 1, "count-max": 3 },
-        { "item": "moonstears_harvested", "prob": 5, "count-min": 1, "count-max": 3 },
+        { "item": "starsbreath_harvested", "prob": 5, "count-min": 1, "count-max": 3 },
         { "item": "elf_shot", "prob": 5 }
       ]
     }

@@ -1,12 +1,12 @@
 [
-   {
+  {
     "type": "furniture",
     "id": "f_morningflower",
     "name": "morningflower",
     "description": "A brilliant yellow flower that absorbs the sun's rays and then radiates it back as light.",
     "symbol": "y",
     "color": "yellow",
-    "looks_like": "f_datura",
+    "looks_like": "f_kampuch",
     "move_cost_mod": 1,
     "required_str": -1,
     "light_emitted": 5,
@@ -22,7 +22,7 @@
     "description": "A set of thick leaves on a short woody stem.  The leaves are an almost-unnaturally brilliant green.",
     "symbol": "#",
     "color": "green",
-    "looks_like": "f_burdock",
+    "looks_like": "f_moly",
     "move_cost_mod": 1,
     "required_str": -1,
     "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE" ],
@@ -33,14 +33,14 @@
     ],
     "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
   },
-   {
+  {
     "type": "furniture",
     "id": "f_maidenshair",
     "name": "maiden's hair",
     "description": "A set of long, thin blades waving gently underwater.  They seem to move even when there is no current.",
     "symbol": "/",
     "color": "light_green",
-    "looks_like": "f_cattails",
+    "looks_like": "f_flowering_fern",
     "move_cost_mod": 1,
     "required_str": -1,
     "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE", "FLOWER" ],
@@ -55,7 +55,7 @@
     "description": "A round, silvery-blue flower.  It often grows near witchwood trees, and only blooms under starlight.",
     "symbol": "#",
     "color": "green",
-    "looks_like": "f_burdock",
+    "looks_like": "f_olieribos",
     "move_cost_mod": 1,
     "required_str": -1,
     "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE", "FLOWER" ],
@@ -67,6 +67,7 @@
     "type": "furniture",
     "id": "f_corpsefire_mushroom",
     "name": "corpsefire caps",
+    "looks_like": "f_glowing_mushroom",
     "description": "A cluster of blue-white mushrooms growing from the ground, faintly glowing with a ghastly light.",
     "symbol": "#",
     "color": "dark_gray",
