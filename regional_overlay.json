@@ -18,7 +18,7 @@
       "ocean_start_north": 500,
       "ocean_start_east": 3,
       "ocean_start_west": 1000,
-      "ocean_start_south": 4,
+      "ocean_start_south": 5,
       "sandy_beach_width": 15
     },
     "region_terrain_and_furniture": {
