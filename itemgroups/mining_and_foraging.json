@@ -82,7 +82,7 @@
       ]
     }
   },
-   {
+  {
     "type": "item_group",
     "id": "cave_minerals",
     "subtype": "distribution",
