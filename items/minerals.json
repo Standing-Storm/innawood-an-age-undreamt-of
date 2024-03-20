@@ -14,5 +14,20 @@
     "weight": "66 g",
     "to_hit": -2,
     "melee_damage": { "cut": 1 }
+  },
+  {
+    "type": "GENERIC",
+    "id": "glimmerstone",
+    "category": "spare_parts",
+    "symbol": "*",
+    "color": "light_blue",
+    "name": { "str": "glimmerstone" },
+    "description": "This crystal glints dully with an inner blue light, just enough to cast a wavering outline on your hand as you hold it.",
+    "price": 2000,
+    "price_postapoc": 250,
+    "material": [ "gemstone" ],
+    "volume": "50 ml",
+    "weight": "250 g",
+    "flags": [ "LIGHT_5" ]
   }
 ]
