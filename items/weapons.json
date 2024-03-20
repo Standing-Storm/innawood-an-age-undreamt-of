@@ -45,8 +45,8 @@
       "fields_radius": 0,
       "do_flashbang": true,
       "fields_type": "fd_bright_light",
-      "fields_min_intensity": 18,
-      "fields_max_intensity": 20
+      "fields_min_intensity": 13,
+      "fields_max_intensity": 16
     },
     "flags": [ "BOMB", "TRADER_AVOID", "DANGEROUS" ]
   }
