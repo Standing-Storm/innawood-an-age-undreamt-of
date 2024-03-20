@@ -160,7 +160,7 @@
         }
       },
       "furniture": {
-        "f_region_water_plant": { "f_maidenshair": 1 },
+        "f_region_water_plant": { "f_cattails": 30, "f_purple_loosestrife": 20, "f_wild_rice": 2, "f_lilypad": 2, "f_lotus": 10, "f_maidenshair": 1 },
         "f_region_weed": { "f_morningflower": 10 },
         "f_region_forest": { "f_morningflower": 20, "f_harfry": 10 },
         "f_region_forest_dense": { "f_morningflower": 20, "f_harfry": 20 }
