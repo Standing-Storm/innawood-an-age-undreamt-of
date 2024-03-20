@@ -1,7 +1,7 @@
 [
   {
     "type": "BOOK",
-    "id": "research_notes_abstract",
+    "abstract": "research_notes_abstract",
     "name": { "str": "research notes abstract" },
     "description": "A bunch of loose notes for researching bugs, which you're probably doing if you can see this.",
     "weight": "50 g",

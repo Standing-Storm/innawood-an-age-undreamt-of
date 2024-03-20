@@ -28,7 +28,12 @@
     "proficiencies": [ { "proficiency": "prof_alchemy_basic" } ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
-    "components": [ [ [ "water_clean", 1 ] ], [ [ "corpse_ash", 1 ] ], [ [ "poppy_bud", 1 ], [ "morningflower_leaves_smoked", 1 ] ], [ [ "royal_jelly", 1 ] ] ],
+    "components": [
+      [ [ "water_clean", 2 ] ],
+      [ [ "corpse_ash", 10 ] ],
+      [ [ "poppy_bud", 2 ], [ "morningflower_leaves_smoked", 1 ] ],
+      [ [ "royal_jelly", 2 ] ]
+    ],
     "charges": 3
   },
   {
@@ -42,7 +47,7 @@
     "time": "1 m",
     "batch_time_factors": [ 50, 4 ],
     "autolearn": true,
-    "components": [ [ [ "harfry_root", 3 ] ], [ [ "corpsefire_cap", 3 ] ], [ "water_clean", 3 ] ], [ [ "lotus_blossom", 1 ] ] ],
+    "components": [ [ [ "harfry_root", 3 ] ], [ [ "corpsefire_cap", 3 ] ], [ [ "water_clean", 3 ] ], [ [ "lotus_blossom", 1 ] ] ],
     "charges": 6
   },
   {
@@ -59,11 +64,7 @@
     "autolearn": true,
     "proficiencies": [ { "proficiency": "prof_alchemy_basic" } ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [
-      [ [ "surface_heat", 50, "LIST" ] ],
-      [ [ "silver_small", -1 ] ],
-      [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ]
-    ],
+    "tools": [ [ [ "surface_heat", 50, "LIST" ] ], [ [ "silver_small", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
       [ [ "hard_liquor_chem", 20, "LIST" ] ],
       [ [ "salt_water", 4 ] ],
@@ -86,11 +87,7 @@
     "autolearn": true,
     "proficiencies": [ { "proficiency": "prof_alchemy_basic" }, { "proficiency": "prof_alchemy_expert" } ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [
-      [ [ "surface_heat", 50, "LIST" ] ],
-      [ [ "silver_small", -1 ] ],
-      [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ]
-    ],
+    "tools": [ [ [ "surface_heat", 50, "LIST" ] ], [ [ "silver_small", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
       [ [ "hard_liquor_chem", 25, "LIST" ] ],
       [ [ "starsbreath_harvested", 4 ] ],
@@ -295,7 +292,13 @@
     ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
-    "components": [ [ [ "witchwood_bark", 3 ] ], [ [ "corpse_ash", 100 ] ], [ [ "morningflower_leaves", 10 ] ], [ [ "xe_elder_ginseng", 1 ] ], [ [ "water", 2 ] ] ]
+    "components": [
+      [ [ "witchwood_bark", 3 ] ],
+      [ [ "corpse_ash", 100 ] ],
+      [ [ "morningflower_leaves", 10 ] ],
+      [ [ "xe_elder_ginseng", 1 ] ],
+      [ [ "water", 2 ] ]
+    ]
   },
   {
     "type": "recipe",

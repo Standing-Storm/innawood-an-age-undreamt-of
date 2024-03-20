@@ -1,0 +1,11 @@
+[
+  {
+    "id": "truckers_stamina_pills",
+    "copy-from": "truckers_stamina_pills",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "berzerkergang cordial" },
+    "description": "When you began the  path into occultism, you never imagined you'd be mixing mushrooms taken from damp caves with hard alcohol and preparing to drink it before heading into battle.  But here you are.",
+    "container": "bag_canvas_small"
+  }
+]
