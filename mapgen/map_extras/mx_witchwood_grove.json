@@ -62,7 +62,7 @@
         "   GSG   "
       ],
       "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
-      "terrain": { "G": [ [ "t_tree_witchwood", 2 ], [ "t_forestfloor", 1 ], [ "t_moss", 1 ], [ "t_grass", 1 ] ], " ": "t_null" },
+      "terrain": { "G": [ [ "t_tree_witchwood", 2 ], [ "t_forestfloor", 2 ], [ "t_moss", 2 ], [ "t_grass", 2 ] ], " ": "t_null" },
       "furniture": { "S": [ [ "f_starsbreath", 1 ], [ "f_null", 1 ] ] }
     }
   }
