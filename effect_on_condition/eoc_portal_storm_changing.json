@@ -87,7 +87,6 @@
     "type": "effect_on_condition",
     "id": "EOC_PORTAL_STORM_PLANT_MUTATOR",
     "recurrence": "15 minutes",
-    "global": true,
     "condition": {
       "and": [
         {
@@ -109,7 +108,6 @@
     "type": "effect_on_condition",
     "id": "EOC_PORTAL_STORM_SPIDER_MUTATOR",
     "recurrence": "15 minutes",
-    "global": true,
     "condition": {
       "and": [
         {
