@@ -1,0 +1,53 @@
+[
+  {
+    "id": "glimmerdust_light_grenade",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "inferno grenade" },
+    "description": "This is an glimmerdust \"grenade\", made of glimmerdust and powdered morningflower leaves wrapped in baked clay and fat.  When thrown properly, it will shatter and allow the glow of the ingredients to shine brightly.",
+    "weight": "230 g",
+    "volume": "270 ml",
+    "price": 2000,
+    "price_postapoc": 1500,
+    "to_hit": -1,
+    "melee_damage": { "bash": 6 },
+    "material": [ "clay" ],
+    "symbol": "*",
+    "color": "light_gray",
+    "use_action": {
+      "need_wielding": true,
+      "target": "glimmerdust_light_grenade_act",
+      "msg": "You prepare to throw the grenade.",
+      "target_timer": "3 seconds",
+      "active": true,
+      "menu_text": "Get ready to throw the grenade",
+      "type": "transform"
+    },
+    "flags": [ "BOMB", "GRENADE" ]
+  },
+  {
+    "id": "glimmerdust_light_grenade_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "active glimmerdust grenade" },
+    "description": "This is an active glimmerdust grenade.  Better throw it!",
+    "weight": "230 g",
+    "volume": "270 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": -1,
+    "melee_damage": { "bash": 6 },
+    "material": [ "clay" ],
+    "symbol": "*",
+    "color": "light_gray",
+    "countdown_action": {
+      "type": "explosion",
+      "fields_radius": 0,
+      "do_flashbang": true,
+      "fields_type": "fd_bright_light",
+      "fields_min_intensity": 18,
+      "fields_max_intensity": 20
+    },
+    "flags": [ "BOMB", "TRADER_AVOID", "DANGEROUS" ]
+  }
+]
