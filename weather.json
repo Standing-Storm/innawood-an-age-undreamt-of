@@ -19,7 +19,7 @@
     "sound_category": "drizzle",
     "required_weathers": [ "cloudy" ],
     "priority": 30,
-    "condition": { "or": [ { "math": [ "weather('humidity')", ">=", "70" ] }, { "math": [ "weather('pressure')", "<", "1003" ] } ] }
+    "condition": { "or": [ { "math": [ "weather('humidity')", ">=", "75" ] }, { "math": [ "weather('pressure')", "<", "1003" ] } ] }
   },
   {
     "id": "drizzle",
@@ -41,7 +41,7 @@
     "sound_category": "drizzle",
     "required_weathers": [ "light_drizzle" ],
     "priority": 40,
-    "condition": { "or": [ { "math": [ "weather('humidity')", ">=", "80" ] }, { "math": [ "weather('pressure')", "<", "1000" ] } ] }
+    "condition": { "or": [ { "math": [ "weather('humidity')", ">=", "83" ] }, { "math": [ "weather('pressure')", "<", "1000" ] } ] }
   },
   {
     "id": "rain",
