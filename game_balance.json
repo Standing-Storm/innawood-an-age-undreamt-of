@@ -1,0 +1,9 @@
+[
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "OVERMAP_FOREST_INCREASE_WEST",
+    "info": "Rate at which forest coverage of the map increases to the West.  0=no increase.",
+    "stype": "float",
+    "value": 0.005
+  }
+]
