@@ -20,16 +20,5 @@
       "CSC_PRACTICE_RANGED",
       "CSC_PRACTICE_THAUMATURGY"
     ]
-  },
-  {
-    "type": "recipe_category",
-    "id": "CC_THAUMATURGY",
-    "recipe_subcategories": [
-      "CSC_ALL",
-      "CSC_THAUMATURGY_MATERIALS",
-      "CSC_THAUMATURGY_TOOLS",
-      "CSC_THAUMATURGY_RITUALS",
-      "CSC_THAUMATURGY_RESEARCH"
-    ]
   }
 ]
