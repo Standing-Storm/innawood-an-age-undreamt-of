@@ -2,7 +2,7 @@
   {
     "type": "region_overlay",
     "regions": [ "all" ],
-    "//": "Designed to make forests and swamps more common and wilderness food more rare",
+    "//": "Designed to make forests and swamps more common and wilderness food more rare, as well as allowing easier access to the ocean in a world without roads",
     "overmap_forest_settings": {
       "noise_threshold_forest": 0.15,
       "noise_threshold_forest_thick": 0.25,
@@ -10,6 +10,16 @@
       "noise_threshold_swamp_isolated": 0.6,
       "river_floodplain_buffer_distance_min": 3,
       "river_floodplain_buffer_distance_max": 15
+    },
+    "overmap_ocean_settings": {
+      "noise_threshold_ocean": 0.25,
+      "ocean_size_min": 100,
+      "ocean_depth": -9,
+      "ocean_start_north": 500,
+      "ocean_start_east": 3,
+      "ocean_start_west": 1000,
+      "ocean_start_south": 4,
+      "sandy_beach_width": 15
     },
     "region_terrain_and_furniture": {
       "terrain": {
