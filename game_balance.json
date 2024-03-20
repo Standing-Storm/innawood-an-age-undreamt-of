@@ -5,5 +5,12 @@
     "info": "Rate at which forest coverage of the map increases to the West.  0=no increase.",
     "stype": "float",
     "value": 0.005
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "SPAWN_ANIMAL_DENSITY",
+    "info": "A scaling factor that determines density of wild, formerly domesticated and mutated animal spawns.",
+    "stype": "float",
+    "value": 2.5
   }
 ]
