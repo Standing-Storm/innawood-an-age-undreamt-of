@@ -1,0 +1,22 @@
+[
+  {
+    "result": "glimmerdust_light_grenade",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_XEDRA",
+    "subcategory": "CSC_XEDRA_WEAPONS",
+    "skill_used": "deduction",
+    "skills_required": [ "fabrication", 3 ],
+    "difficulty": 2,
+    "time": "60 m",
+    "autolearn": [ [ "fabrication", 3 ], [ "deduction", 2 ] ],
+    "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "FINE_GRIND", "level": 1 } ]
+     "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
+    "components": [
+      [ [ "glimmerstone_dust", 2 ] ],
+      [ [ "morningflower_leaves_smoked", 3 ] ],
+      [ [ "any_fat", 2, "LIST" ] ],
+      [ [ "clay_lump", 1 ] ]
+    ]
+  }
+]
