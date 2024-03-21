@@ -3,7 +3,7 @@
     "id": "glimmerdust_light_grenade",
     "type": "TOOL",
     "category": "weapons",
-    "name": { "str": "inferno grenade" },
+    "name": { "str": "glimmerdust grenade" },
     "description": "This is an glimmerdust \"grenade\", made of glimmerdust and powdered morningflower leaves wrapped in baked clay and fat.  When thrown properly, it will shatter and allow the glow of the ingredients to shine brightly.",
     "weight": "230 g",
     "volume": "270 ml",
@@ -43,7 +43,6 @@
     "countdown_action": {
       "type": "explosion",
       "fields_radius": 0,
-      "do_flashbang": true,
       "fields_type": "fd_bright_light",
       "fields_min_intensity": 25,
       "fields_max_intensity": 33
