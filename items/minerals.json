@@ -14,5 +14,33 @@
     "weight": "66 g",
     "to_hit": -2,
     "melee_damage": { "cut": 1 }
+  },
+  {
+    "type": "GENERIC",
+    "id": "glimmerstone",
+    "category": "spare_parts",
+    "symbol": "*",
+    "color": "light_blue",
+    "name": { "str": "glimmerstone" },
+    "description": "This crystal glints dully with an inner blue light, just enough to cast a wavering outline on your hand as you hold it.",
+    "price": 2000,
+    "price_postapoc": 250,
+    "material": [ "gemstone" ],
+    "volume": "10 ml",
+    "weight": "250 g",
+    "flags": [ "LIGHT_5" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "glimmerstone_dust",
+    "category": "spare_parts",
+    "name": { "str": "glimmerstone dust", "str_pl": "pinches of glimmerstone dust" },
+    "description": "Crushed and distilled glimmerstone, leaving only the most vibrant glowing parts.  It's still not bright enough to be useful, however.",
+    "symbol": ".",
+    "color": "light_blue",
+    "material": [ "powder" ],
+    "volume": "1 ml",
+    "weight": "25 g",
+    "flags": [ "LIGHT_5" ]
   }
 ]

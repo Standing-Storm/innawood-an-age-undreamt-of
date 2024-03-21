@@ -20,7 +20,7 @@
     "flags": [ "NO_EXPLOSION_SFX", "SILENT", "RANDOM_DURATION" ],
     "shape": "blast",
     "effect": "attack",
-    "effect_str": "effect_photokinetic_illumination",
+    "effect_str": "effect_psi_illumination",
     "damage_type": "heat",
     "max_level": 30,
     "min_damage": 1,
