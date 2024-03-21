@@ -10,7 +10,7 @@
     "time": "45 m",
     "autolearn": true,
     "batch_time_factors": [ 80, 4 ],
-    "qualities": [ ,  { "id": "HAMMER", "level": 3 }, { "id": "FINE_GRIND", "level": 1 } ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "FINE_GRIND", "level": 1 } ],
     "components": [ [ [ "glimmerstone", 1 ] ] ]
   }
 ]

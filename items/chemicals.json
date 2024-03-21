@@ -1,7 +1,7 @@
 [
   {
     "type": "AMMO",
-    "id": "ink_abstract",
+    "abstract": "ink_abstract",
     "category": "chems",
     "price": 3000,
     "price_postapoc": 500,

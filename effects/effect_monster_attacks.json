@@ -1,7 +1,7 @@
 [
   {
     "type": "effect_type",
-    "id": "effect_photokinetic_illumination",
+    "id": "effect_psi_illumination",
     "name": [ "Illuminated" ],
     "desc": [ "You are glowing.  The light is a color you have no name for, a kind of actinic purple-red." ],
     "apply_message": "A harsh glow springs up around you!",
